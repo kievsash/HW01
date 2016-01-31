@@ -8,3 +8,7 @@ header {
 .panel-body {
 	min-height: 250px;
 }
+
+[undo] {
+	float: right;
+}
