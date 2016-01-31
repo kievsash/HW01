@@ -1,5 +1,10 @@
 header {
+	text-align: center;
 	color: black;
 	margin: auto;
 	display: block;
+}
+
+.panel-body {
+	min-height: 250px;
 }
