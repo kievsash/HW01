@@ -1,5 +1,7 @@
-var module2 = framework.module('module2')
-.addRouter({
+console.log('Started module');
+console.log(framework);
+framework.module('module2', [])
+.addRoute({
 	tag: "#tag3",
 	template: '../templates/template3.html'
 });
