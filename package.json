@@ -1,0 +1,23 @@
+{
+  "name": "hw01",
+  "version": "1.0.0",
+  "description": "HomeWork1 for mentoring program",
+  "main": "index.html",
+  "dependencies": {
+    "static-server": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kievsash/HW01.git"
+  },
+  "author": "Oleksandr Poshtaruk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kievsash/HW01/issues"
+  },
+  "homepage": "https://github.com/kievsash/HW01#readme"
+}
