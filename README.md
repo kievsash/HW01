@@ -11,9 +11,8 @@ This is handy framework for creating routed element (very similar to ng-router).
 Actualy you just need to install 'static-server' package to run simple http server.
 
 > cd HW01
->static-server
 
-You will start http-server:
+Then start http-server:
 >$ static-server
 >* Static server successfully started.
 >* Serving files at: http://localhost:9080
