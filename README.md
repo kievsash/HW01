@@ -50,9 +50,9 @@ framework.run(); // to start it working - in main module
 		<div class="panel-body"></div>
 	</div>
 ```
-framework-router - set parent block 
-.panel-body - indicates where templates should be loaded to
-#tag1, #tag2... - should correspond to respective tags in routes definition.
+framework-router - set parent block.
+.panel-body - indicates where templates should be loaded to.
+tag1, tag2... - should correspond to respective tags in routes definition.
 
 5. Open index.html through http server.
 
