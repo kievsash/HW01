@@ -25,7 +25,12 @@ framework.module('module1', ['app.module2'])
 framework.run(); // to start it working - in main module
 
 ```
-2. Add jquery CDN, framework.js and module file script tags to index.html before closing body tag
+2. Add bootstrap css lib.
+```
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+```
+
+3. Add jquery CDN, framework.js and module file script tags to index.html before closing body tag
 ```
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" ></script>
 <script src="lib/framework.js"></script>	
@@ -33,7 +38,23 @@ framework.run(); // to start it working - in main module
 </body>
 ```
 
-3. Open index.html through http server.
+4. Add html markup for routing, for example:
+```
+	<div class="panel panel-default" framework-router>
+		<div class="panel-heading" >
+		 	<a href="#tag1" class="btn btn-primary">Tag1</a>
+		 	<a href="#tag2" class="btn btn-primary">Tag2</a>
+		 	<a href="#tag3" class="btn btn-primary">Tag3</a>
+		 	<a href="javascript:void(0)" class="btn" undo>Undo</a>
+		</div>
+		<div class="panel-body"></div>
+	</div>
+```
+framework-router - set parent block 
+.panel-body - indicates where templates should be loaded to
+#tag1, #tag2... - should correspond to respective tags in routes definition.
+
+5. Open index.html through http server.
 
 ## Demo Installation
 > git clone ...
