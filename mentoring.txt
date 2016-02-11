@@ -1,0 +1,15 @@
+[29.01] 
+-Got HW
+
+[01.02] 
+-Send to mentor for review
+-Mentor couldn't start it correctly (root of http server folder) and asked to add install notes
+-Observer pattern was not realized correctly
+
+[02.02-07.02]
+illness
+
+[08.02]
+Added correct Observer and PubSub classed 
+Added readme.md to github HW01 root folder
+Send to mentor for review
